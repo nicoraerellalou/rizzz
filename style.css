@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('tons.jpg');
+    background-position: center;
+    background-size: contain;
+    text-align: center;
+}
+
+.frntpage {
+    width: 475px;
+    height: 550px;
+    margin: 50px auto;
+    background-color: #FFB6C1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.content-wrapper {
+    flex: 1;
+    padding: 10px;
+}
+
+#myH1 {
+    margin-top: 0;
+    z-index: 4;
+    position: relative;
+    color:#cb5656;
+}
+
+.tonton_gif {
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    z-index: 3;
+}
+
+.adjustable_gif {
+    position: relative;
+    width: 57%;
+    height: auto;
+    top: 185px;
+    margin-bottom: 150px;
+}
+
+.Yes_btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #e44747;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+}
+
+.Yes_btn:hover {
+    background-color: #cb5656;
+}
+.overlay_image {
+    
+    position: absolute;
+    top: 58%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.adjustable_overlay {
+    width: 475px;
+    height: 650px;
+}
+
+/* Align button to the bottom */
+.YN_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    padding-bottom: 5px;
+    z-index: 5;
+}
